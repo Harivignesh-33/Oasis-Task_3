@@ -1,0 +1,26 @@
+<!-- You can use enter to add a task also but button works the same too.,
+the search bar is combined with the bar used to add tasks-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List</title>
+</head>
+
+<body>
+    <div id="dtbtn" class="active" onclick="dtst()"><span></span></div> <span id="dtd">Show date and time</span>
+    <section id="listarea">
+        <section id="box">
+            <input type="text" id="bar" placeholder="Search or add a task" onkeyup="searchengine()"><button
+                onclick="add()">+</button>
+        </section>
+    </section>
+    <script defer src="script.js"></script>
+
+</body>
+</html>
